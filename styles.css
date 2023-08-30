@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+div{
+	display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+	background-color:black;
+}
+li{
+	display:inline-block;
+	padding:10px;
+	align-items:center;
+	justify-content: space-between;
+}
+a{
+	align-items:center;
+}
